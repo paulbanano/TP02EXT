@@ -1,0 +1,5 @@
+Z:\Programacion4°\TP02EXT\obj\Debug\net7.0\TP02EXT.csproj.AssemblyReference.cache
+Z:\Programacion4°\TP02EXT\obj\Debug\net7.0\TP02EXT.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Programacion4°\TP02EXT\obj\Debug\net7.0\TP02EXT.AssemblyInfoInputs.cache
+Z:\Programacion4°\TP02EXT\obj\Debug\net7.0\TP02EXT.AssemblyInfo.cs
+Z:\Programacion4°\TP02EXT\obj\Debug\net7.0\TP02EXT.csproj.CoreCompileInputs.cache

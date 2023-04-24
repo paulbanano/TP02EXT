@@ -6,24 +6,20 @@ public class Boxeador
     public int PotenciaGolpes{get; set;}
     public int VelocidadPiernas{get; set;}
 
-    public Boxeador1(string nom ,string pais, int peso, int pg, int vp ){
+    public Boxeador(string nom ,string pais, int peso, int pg, int vp ){
         Pais = pais;
         Peso = peso;
         Nombre = nom;
         VelocidadPiernas = vp;
         PotenciaGolpes = pg;
     }
-    public Boxeador2(string nom ,string pais, int peso, int pg, int vp ){
-        Pais = pais;
-        Peso = peso;
-        Nombre = nom;
-        VelocidadPiernas = vp;
-        PotenciaGolpes = pg;
-    }
+    
 
-    public ObtenerSkill(){
-        Random rnd = new Random(1,10)
-        int skill = VelocidadPiernas * 0.6 +  PotenciaGolpes * 0.8 + rnd;       
-        return skill;
+    public int ObtenerSkill(){
+        Random random = new Random();
+        int rnd = random.Next(1,10);
+        double  skill = PotenciaGolpes * 0.8 +  VelocidadPiernas * 0.6 + rnd;
+        int Rskill = (int)skill; 
+        return Rskill;
     }
 }
